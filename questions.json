@@ -1,0 +1,75 @@
+{
+  "total": 10,
+  "questions": [
+    {
+      "id": "1",
+      "question": "What is the capital city of Australia?",
+      "options": ["Sydney", "Canberra", "Melbourne", "Brisbane"],
+      "correct": "Canberra"
+    },
+    {
+      "id": "2",
+      "question": "What is the largest planet in our solar system?",
+      "options": ["Mars", "Venus", "Jupiter", "Saturn"],
+      "correct": "Jupiter"
+    },
+    {
+      "id": "3",
+      "question": "What is the smallest country in the world by land area?",
+      "options": ["San Marino", "Vatican City", "Monaco", "Liechtenstein"],
+      "correct": "Vatican City"
+    },
+    {
+      "id": "4",
+      "question": "What is the largest organ in the human body?",
+      "options": ["Heart", "Liver", "Lungs", "Skin"],
+      "correct": "Skin"
+    },
+    {
+      "id": "5",
+      "question": "What is the chemical symbol for gold?",
+      "options": ["Ag", "Au", "Cu", "Fe"],
+      "correct": "Au"
+    },
+    {
+      "id": "6",
+      "question": "Which planet in our solar system is known as the 'Red Planet'?",
+      "options": ["Jupiter", "Venus", "Mars", "Mercury"],
+      "correct": "Mars"
+    },
+    {
+      "id": "7",
+      "question": "What is the largest ocean in the world?",
+      "options": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Arctic Ocean",
+        "Pacific Ocean"
+      ],
+      "correct": "Pacific Ocean"
+    },
+    {
+      "id": "8",
+      "question": "What is the chemical symbol for water?",
+      "options": ["W", "O", "H2", "H2O"],
+      "correct": "H2O"
+    },
+    {
+      "id": "9",
+      "question": "What is the largest mammal in the world?",
+      "options": ["Giraffe", "Hippopotamus", "Elephant", "Blue Whale"],
+      "correct": "Blue Whale"
+    },
+    {
+      "id": "10",
+      "question": "What is the highest mountain in the world?",
+      "options": [
+        "Mount Kilimanjaro",
+        "Mount Everest",
+        "Mount Fuji",
+        "Mount McKinley"
+      ],
+      "correct": "Mount Everest"
+    }
+  ]
+}
