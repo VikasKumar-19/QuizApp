@@ -22,14 +22,13 @@ const Quiz = () => {
   };
 
   const goToNextQues = () => {
+    if (responses[quesNo] === quiz.questions[quesNo].correct) {
+      handleScore(1);
+    }
     if (quesNo === quiz.total - 1) {
       submitQuiz();
     } else {
       setQuesNo((prev) => prev + 1);
-    }
-
-    if (responses[quesNo] === quiz.questions[quesNo].correct) {
-      handleScore(1);
     }
   };
 

@@ -28,6 +28,8 @@ const QuizContextProvider = ({ children }) => {
   }, [time]);
 
   const startQuiz = () => {
+    setScore(0);
+    setTime(120);
     setScreen(ScreenOptions.QUIZ);
     intervalId.current = setInterval(() => {
       if (time === 1) {
@@ -40,6 +42,7 @@ const QuizContextProvider = ({ children }) => {
   };
 
   const submitQuiz = () => {
+    clearInterval(intervalId.current);
     setScreen(ScreenOptions.RESULT);
   };
 
@@ -48,6 +51,7 @@ const QuizContextProvider = ({ children }) => {
   };
 
   const store = {
+    score,
     submitQuiz,
     time,
     screen,
